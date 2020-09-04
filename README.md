@@ -21,6 +21,8 @@ cd fluxion
 ```
 **Run fluxion (missing dependencies will be auto-installed)**
 ```
+sudo systemctl stop NetworkManager.service
+sudo airmon-ng check kill
 ./fluxion.sh
 ```
 
